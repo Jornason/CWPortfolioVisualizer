@@ -1,0 +1,47 @@
+CWPortfolioVisualizer
+=====================
+
+Data visualization project in Processing to show how the financial holdings of an account are performing.
+
+Contents:
+
+In top level folder: 
+
+->README 
+
+->PerformanceLot.pde -- Processing file (class used by performanceBySector.pde)
+
+->performanceBySector -- directory
+
+In performanceBySector:
+
+-->PerformanceLot.pde -- the directory structure in Processing is a little strange, and I appeared to need this file at both levels. Perhaps it can be deleted at one level.
+
+-->performanceBySector.pde -- Processing file -- the main application
+
+-->data -- directory
+
+In data:
+
+--->AppleBraille-12.vlw -- a font file for use by Processing. You can create your own if you wish by opening Processing and selecting "Create Font" from the "Tools" menu while a window/sketch pane is open.
+
+--->FakePortfolio1.txt -- a mock portfolio of positions held by an imaginary account. Information in the file is tab-separated and contains, in order, a cusip, the description/name of the security, the sector of the security, the return on investment performance of the security for the time period being looked at, the security's weight (the fraction of the portfolio it constitutes), and the security's country of origination. This portfolio is only loosely based in reality, does not reflect the holdings of any clients of my company, and the numbers are made up from whole cloth. This document can be modified to see a different treemap, but the weights must always add up to 1.
+
+
+To use: 
+Check out the project.
+Download Processing at https://www.processing.org/download/. (This project was last worked on in Processing 4.)
+Open performanceBySector.pde in Processing. Click the run button with the triangle on it. 
+
+A pane will pop up with multicolored rectangles that represent the lots (securities) held by our fake portfolio, above a black bar where text is output and two buttons (sector and country). The rectangles are sized according to the lot's weight in the portfolio -- its size compared to the rest of the portfolio.
+
+The default view is of lots organized by sector. Lots in the same sector are grouped together and have the same hue. Clicking on the "country" button will change the view so that lots from the same country are grouped together and have the same hue.
+
+Mousing over the colored rectangles at the top of the pane that pops up will cause it to print out data about the security.
+
+The value and saturation of the colors assigned to the lots are a function of the return on the lot. High-return lots have brighter colors, and returns closer to zero but still positive will be paler colors. Lots with negative returns will have gray and black added to the mix. The lots with the worst returns will be darkest, while those that are negative but still close to zero will be lighter shades of colored gray.
+
+This project is far from perfect. I don't like the fact that I have a black bar for text output -- mouseover popup windows might be nicer. Requiring text input to get the data for a portfolio renders it not particularly useful -- you'd probably be much better served using some other treemap plugin or something. This was basically an opportunity for me to play around in Processing, and I don't intend to make it perfect. I do, however, think the algorithm for representation of the ROI on all the lots in a portfolio is rather effective.
+
+
+
