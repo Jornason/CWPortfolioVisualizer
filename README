@@ -9,9 +9,13 @@ In top level folder:
 
 ->README 
 
-->PerformanceLot.pde -- Processing file (class used by performanceBySector.pde)
+->PerformanceLot -- directory 
 
 ->performanceBySector -- directory
+
+In PerformanceLot:
+
+--> PerformanceLot.pde -- Processing file (class used by performanceBySector.pde)
 
 In performanceBySector:
 
