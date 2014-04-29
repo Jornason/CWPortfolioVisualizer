@@ -1,0 +1,32 @@
+12345678A	Fannie Mae	Agency	.0025	.03	United States
+98765432B	Federal Home Loan Bank	Agency	.0119	.03	United States
+36897968Y	Freddie Mac	Agency	.0136	.03	United States
+45678901C	Goldman Sachs	Financial	.0046	.02	United States
+23456789D	Citibank	Financial	.0029	.02	United States
+38219049E	Bank of America	Financial	-.0010	.02	United States
+76589699X	Royal Bank of Scotland	Financial	.0061	.01	United Kingdom
+12098738F	US Treasury	Government	.0008	.02	United States
+63683256G	US Treasury	Government	.0005	.02	United States
+76589878H	Province of Manitoba	Government	.0223	.02	Canada
+38729695I	Coca-Cola	Industrial	-.0241	.02	United States
+19279823J	McDonald's	Industrial	.0082	.02	United States
+98703282K	Target 	Industrial	.0084	.02	United States
+83268492L	Wal-Mart	Industrial	.0085	.02	United States
+14936872M	Disney	Industrial	.0241	.02	United States
+82649304N	IBM	Industrial	.0029	.02	United States
+37892093O	MB1	Mortgage-Backed	-.0071	.05	United States
+98274949P	MB2	Mortgage-Backed	.0084	.05	United States
+49879329Q	MB3	Mortgage-Backed	.0193	.05	United States
+49827293R	MB4	Mortgage-Backed	.0405	.05	United States
+29387439S	MB5	Mortgage-Backed	.0327	.06	United States
+29384798T	MB6	Mortgage-Backed	.0018	.06	United States
+29849438U	MB7	Mortgage-Backed	-.0025	.06	United States
+49249395V	MB8	Mortgage-Backed	-.0010	.06	United States
+87546895W	Chicago O'Hare Airport	Municipal	.0473	.04	United States
+20937439X	Phoenix Infrastructure	Municipal	.0069	.04	United States
+29384304Y	Port of Seattle	Municipal	.0314	.05	United States
+29408439Z	Dallas Rapid Transit	Municipal	.0441	.04	United States
+40839137A	Florida Power	Utility	.0196	.03	United States
+29843002B	Mississippi Power	Utility	.0123	.02	United States
+
+
